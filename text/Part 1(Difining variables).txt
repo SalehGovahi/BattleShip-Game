@@ -1,0 +1,10 @@
+    //Part1 (Difining variables)
+    int input,temp=1;
+    int i,j,x,y;
+    int battlesNumber = 0;
+
+    printf("Welcome \n");
+    printf("Enter a number : ");
+
+    scanf("%d",&input);
+    printf("\n");

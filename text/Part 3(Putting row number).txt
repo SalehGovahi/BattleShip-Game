@@ -1,0 +1,6 @@
+    //Part 3(Putting row number)
+    for(i=1 ; i<input+1 ; i++){
+        board1[i][0] = temp;
+        board2[i][0] = temp;
+        temp++ ;
+    }

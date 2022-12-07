@@ -1,0 +1,7 @@
+    //Part 5(Making base boards)
+    for(i=1 ; i<input+1 ; i++){
+        for(j=1 ; j<input+1 ; j++){
+            board1[i][j] = 0;
+            board2[i][j] = 0;
+        }
+    }

@@ -1,0 +1,8 @@
+//Part 4(Putting col number)
+    temp = 1;
+
+    for(i=1 ; i<input+1 ; i++){
+        board1[0][i] = temp ;
+        board2[0][i] = temp ;
+        temp++ ;
+    }

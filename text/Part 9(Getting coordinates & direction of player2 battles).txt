@@ -1,0 +1,18 @@
+//Part 9(Getting coordinates & direction of player2 battles)
+    printf("\nTurn of Player1\n");
+    printf("\nInput coordinates & direction of your battles:\n");
+
+    do {
+      scanf("%d %d %c", &xBattle , &yBattle , &direction);
+      if (direction=='h'){
+        board2[x][y]=1;
+        board2[x][y+1]=1;
+        board2[x][y-1]=1;
+      }
+      if (direction=='v'){
+        board2[x][y]=1;
+        board2[x-1][y]=1;
+        board2[x+1][y]=1;
+      }
+      counter++;
+    } while(counter != battlesNumber);

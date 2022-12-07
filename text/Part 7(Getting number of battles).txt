@@ -1,0 +1,3 @@
+    //Part 7(Getting number of battles)
+    printf("\nInput number of battles: ");
+    scanf("%d" , &battlesNumber);
