@@ -1,0 +1,53 @@
+//Part 10(Printing 2 boards with battles)
+for(j=0 ; j<input+1 ; j++){
+    for(i=0 ; i<input+1 ; i++){
+        if((i==1) && (j<10)){
+            printf(" ");
+        }
+        if((i != 0)||(j != 0)){
+            if(board1[i][j]== 0){
+                if(i>=10){
+                    printf(" ");
+                }
+            printf("~ ");
+            }
+            else if(board1[i][j]==254){
+              printf("%c ", board1[i][j]);
+            }
+            else{
+                printf("%d ", board1[i][j]);
+            }
+        }
+        else{
+            printf("  ");
+        }
+
+    }
+//Seperate board2 from board1
+    printf("          ");
+
+    for(i=0 ; i<input+1 ; i++){
+        if((i==1) && (j<10)){
+            printf(" ");
+        }
+        if((i != 0)||(j != 0)){
+            if(board2[i][j]== 0){
+                if(i>=10){
+                    printf(" ");
+                }
+                printf("~ ");
+            }
+            else if(board2[i][j]==254){
+                printf("%c ", board2[i][j]);
+            }
+            else{
+                printf("%d ", board2[i][j]);
+            }
+        }
+        else{
+            printf("  ");
+        }
+
+    }
+printf("\n");
+}
