@@ -11,6 +11,7 @@ int main()
     int xBattle , yBattle;
     char direction;
 
+    printf("Hello\n");
     printf("Welcome \n");
     printf("Enter a number : ");
 
