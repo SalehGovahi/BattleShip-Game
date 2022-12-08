@@ -12,6 +12,7 @@ int main()
     char direction;
 
     printf("\nHello\n");
+    printf("\nHello\n");
     printf("Welcome \n");
     printf("Enter a number : ");
 
