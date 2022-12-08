@@ -9,7 +9,6 @@ int main()
     int battlesNumber = 0;
     int counter = 0;
     int xBattle , yBattle;
-    int po;
     char direction;
 
     printf("Welcome \n");
