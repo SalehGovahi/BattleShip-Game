@@ -1,22 +1,3 @@
-#include <time.h>
+#include <unistd.h> // notice this! you need it!
 
-void delay(int number_of_seconds)
-{
-    int milli_seconds = 1000 * number_of_seconds;
-
-    clock_t start_time = clock();
-
-    while (clock() < start_time + milli_seconds)
-        ;
-}
-
-int main()
-{
-    int i;
-    int wantedTime;
-    for (i = 0; i < wantedTime; i++) {
-        delay(1);
-        printf("%d seconds have passed\n", i + 1);
-    }
-    return 0;
-}
+sleep(5); // format is sleep(x); where x is # of seconds.
