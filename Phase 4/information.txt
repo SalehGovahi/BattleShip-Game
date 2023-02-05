@@ -1,0 +1,9 @@
+8
+2
+Player1
+1 1 h
+1 2 v
+---
+player2
+1 1 h
+1 2 v
